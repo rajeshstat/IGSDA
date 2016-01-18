@@ -1,0 +1,18 @@
+{
+    "contents" : "---\ntitle: \"IGSDA\"\nauthor: \"Rajesh\"\ndate: \"January 18, 2016\"\noutput: html_document\n---\n\nThis is a work flow and thinking document for the IGSDA project.\n",
+    "created" : 1453141203192.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2473825965",
+    "id" : "40B2F2E4",
+    "lastKnownWriteTime" : 1453141247,
+    "path" : "Z:/Research/IGSDA/think.Rmd",
+    "project_path" : "think.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

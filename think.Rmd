@@ -1,0 +1,8 @@
+---
+title: "IGSDA"
+author: "Rajesh"
+date: "January 18, 2016"
+output: html_document
+---
+
+This is a work flow and thinking document for the IGSDA project.
