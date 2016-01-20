@@ -87,7 +87,8 @@ fluidRow( box(width=12,background = "black",title="Select Response and Predictor
 
     ),
     tabItem(tabName = "lr",
-            box(background = "black",'Input a data file with samples/individuals as rows and variables/predictors/responses as columns',"adsasdasda"
+            fluidRow( box(width=12,background = "black",title="Data Sample",verbatimTextOutput("mylr"))
+
 
     )
 
@@ -147,7 +148,14 @@ server<-function(input,output,session){
 
   })
 
-
+  output$mylr = renderPrint({
+    tmp<-cndata()
+    if(is.null(input$e1)|is.null(input$e2)){return(NULL)}
+eval(parse(text=paste("fmla<-as.formula(",input$e1,"~",paste(input$e2,collapse = "+"),")")))
+print(fmla)
+xs<-lm(fmla,data=tmp)
+print(summary(xs))
+  })
 
 
 }
