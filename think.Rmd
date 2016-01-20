@@ -19,8 +19,6 @@ Disadvantages
 1. This is going to take lot of time. (should be worth it)
 2. Julia is not yet fully developed.
 
-
-Use Rjulia for interfacing julia to R
 ```{r}
 
 ```
